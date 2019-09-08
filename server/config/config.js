@@ -37,6 +37,6 @@ if (process.env.NODE_ENV === 'dev') {
 } else {
 
     urlDB = process.env.MONGO_URI;
-    // urlDB = 'mongodb+srv://smith8776:ian13246102!@cluster0-nf8mo.mongodb.net/cafe';
+    // urlDB = 'mongodb+srv://smith8776:ian13246102!@cluster0-nf8mo.mongodb.net/test?retryWrites=true&w=majority';
 }
 process.env.URLDB = urlDB;
